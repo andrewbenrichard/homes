@@ -5,9 +5,9 @@
         <div class="col-lg-3 col-md-6">
           <div class="footer-widget">
             <div class="logo">
-              <a href="index.html">
+              <router-link to="/">
                 <img src="public/assets/img/logo-2.png" alt="logo" />
-              </a>
+              </router-link>
             </div>
             <p>Book professional handymen with ease.</p>
            
