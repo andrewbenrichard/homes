@@ -1,0 +1,19 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+$fa-font-path: "../webfonts";
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+
+.navbar-area .main-nav .navbar .navbar-nav .nav-item .router-link-exact-active {
+    color: #e67e22 !important;
+}
+
+.home-image>img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
