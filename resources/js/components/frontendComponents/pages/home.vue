@@ -1,6 +1,6 @@
 <template>
   <div class="site-wrapper">
-    <topHeader pageTitle="Empire | " />
+    <topHeader pageTitle="Empire" />
 
     <!-- Home Section Start -->
     <div class="home-style-three home-bg-three">

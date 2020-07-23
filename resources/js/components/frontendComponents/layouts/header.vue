@@ -1,6 +1,6 @@
 <template>
   <div class="header___sk_shop">
-    <title>{{pageTitle}} Hire Ha</title>
+    <title>{{pageTitle}} | Property Maintenance Experts</title>
     <!-- Header Section Start -->
     <div class="header-section header-style-two">
       <div class="container">
