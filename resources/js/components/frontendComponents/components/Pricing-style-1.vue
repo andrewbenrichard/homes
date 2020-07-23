@@ -22,8 +22,8 @@
                  </p> 
 
                 <div class="price-head-hover">
-                  <img src="assets/img/hire/shape-1.png" alt="shape" />
-                  <img src="assets/img/hire/shape-2.png" alt="shape" />
+                  <img src="public/assets/img/hire/shape-1.png" alt="shape" />
+                  <img src="public/assets/img/hire/shape-2.png" alt="shape" />
                 </div>
               </div>
 
@@ -53,9 +53,9 @@
               </div>
 
               <div class="price-shapes">
-                <img src="assets/img/price-shape-two.png" alt="shape" />
-                <img src="assets/img/price-shape-three.png" alt="shape" />
-                <img src="assets/img/price-shape-three.png" alt="shape" />
+                <img src="public/assets/img/price-shape-two.png" alt="shape" />
+                <img src="public/assets/img/price-shape-three.png" alt="shape" />
+                <img src="public/assets/img/price-shape-three.png" alt="shape" />
               </div>
             </div>
           </div>
@@ -71,8 +71,8 @@
 
 
                 <div class="price-head-hover">
-                  <img src="assets/img/hire/shape-1.png" alt="shape" />
-                  <img src="assets/img/hire/shape-2.png" alt="shape" />
+                  <img src="public/assets/img/hire/shape-1.png" alt="shape" />
+                  <img src="public/assets/img/hire/shape-2.png" alt="shape" />
                 </div>
               </div>
 
@@ -104,9 +104,9 @@
               </div>
 
               <div class="price-shapes">
-                <img src="assets/img/price-shape-two.png" alt="shape" />
-                <img src="assets/img/price-shape-three.png" alt="shape" />
-                <img src="assets/img/price-shape-three.png" alt="shape" />
+                <img src="public/assets/img/price-shape-two.png" alt="shape" />
+                <img src="public/assets/img/price-shape-three.png" alt="shape" />
+                <img src="public/assets/img/price-shape-three.png" alt="shape" />
               </div>
             </div>
           </div>
@@ -125,8 +125,8 @@
 
 
                 <div class="price-head-hover">
-                  <img src="assets/img/hire/shape-1.png" alt="shape" />
-                  <img src="assets/img/hire/shape-2.png" alt="shape" />
+                  <img src="public/assets/img/hire/shape-1.png" alt="shape" />
+                  <img src="public/assets/img/hire/shape-2.png" alt="shape" />
                 </div>
               </div>
 
@@ -153,9 +153,9 @@
               </div>
 
               <div class="price-shapes">
-                <img src="assets/img/price-shape-two.png" alt="shape" />
-                <img src="assets/img/price-shape-three.png" alt="shape" />
-                <img src="assets/img/price-shape-three.png" alt="shape" />
+                <img src="public/assets/img/price-shape-two.png" alt="shape" />
+                <img src="public/assets/img/price-shape-three.png" alt="shape" />
+                <img src="public/assets/img/price-shape-three.png" alt="shape" />
               </div>
             </div>
           </div>

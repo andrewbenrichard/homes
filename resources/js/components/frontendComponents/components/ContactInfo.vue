@@ -27,10 +27,10 @@
                     </div>
 
                     <div class="contact-shapes">
-                        <img src="assets/img/contact-shape-three.png" alt="shape">
-                        <img src="assets/img/contact-shape-four.png" alt="shape">
-                        <img src="assets/img/contact-shape-five.png" alt="shape">
-                        <img src="assets/img/contact-shape-five.png" alt="shape">
+                        <img src="public/assets/img/contact-shape-three.png" alt="shape">
+                        <img src="public/assets/img/contact-shape-four.png" alt="shape">
+                        <img src="public/assets/img/contact-shape-five.png" alt="shape">
+                        <img src="public/assets/img/contact-shape-five.png" alt="shape">
                     </div>
                 </div>
             </div>

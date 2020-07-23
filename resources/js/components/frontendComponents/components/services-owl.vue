@@ -8,7 +8,7 @@
 
         <div class="service-slider owl-carousel owl-theme">
           <div class="service-item">
-            <img src="/assets/icons/svg/pipeline.svg"/>
+            <img src="/public/assets/icons/svg/pipeline.svg"/>
             <h3>Plumbing</h3>
             <p>
 Need a plumber? We’re here 24/7.
@@ -23,16 +23,16 @@ Need a plumber? We’re here 24/7.
             </div>
 
             <div class="service-shape">
-              <img src="assets/img/service/shapes/service-pattern-6.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-7.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-8.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-9.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-10.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-6.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-7.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-8.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-9.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-10.png" alt="shape" />
             </div>
           </div>
 
           <div class="service-item">
-            <img src="/assets/icons/svg/electric-wire.svg" alt="">
+            <img src="/public/assets/icons/svg/electric-wire.svg" alt="">
             <h3>Electrics</h3>
             <p>
              If you need an electrician anywhere within Benin, 
@@ -48,16 +48,16 @@ Need a plumber? We’re here 24/7.
             </div>
 
             <div class="service-shape">
-              <img src="assets/img/service/shapes/service-pattern-6.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-7.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-8.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-9.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-10.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-6.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-7.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-8.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-9.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-10.png" alt="shape" />
             </div>
           </div>
 
           <div class="service-item">
-            <img src="/assets/icons/svg/19.svg" alt="">
+            <img src="/public/assets/icons/svg/19.svg" alt="">
             <h3>Roofing
 </h3>
             <p>
@@ -70,11 +70,11 @@ Need a plumber? We’re here 24/7.
             </div>
 
             <div class="service-shape">
-              <img src="assets/img/service/shapes/service-pattern-6.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-7.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-8.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-9.png" alt="shape" />
-              <img src="assets/img/service/shapes/service-pattern-10.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-6.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-7.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-8.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-9.png" alt="shape" />
+              <img src="public/assets/img/service/shapes/service-pattern-10.png" alt="shape" />
             </div>
           </div>
 

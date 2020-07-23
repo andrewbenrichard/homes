@@ -23,18 +23,18 @@
               </div>
               <div class="col-lg-4 col-md-5 p-0">
                 <div class="home-image">
-                  <img src="assets/img/home/8.jpg" alt="home image" />
+                  <img src="public/assets/img/home/8.jpg" alt="home image" />
                 </div>
               </div>
             </div>
 
             <div class="home-three-shapes">
-              <img src="assets/img/process-pattern-3.png" alt="shape" />
-              <img src="assets/img/process-pattern-4.png" alt="shape" />
-              <img src="assets/img/process-pattern-5.png" alt="shape" />
-              <img src="assets/img/process-pattern-6.png" alt="shape" />
-              <img src="assets/img/process-pattern-7.png" alt="shape" />
-              <img src="assets/img/process-pattern-6.png" alt="shape" />
+              <img src="public/assets/img/process-pattern-3.png" alt="shape" />
+              <img src="public/assets/img/process-pattern-4.png" alt="shape" />
+              <img src="public/assets/img/process-pattern-5.png" alt="shape" />
+              <img src="public/assets/img/process-pattern-6.png" alt="shape" />
+              <img src="public/assets/img/process-pattern-7.png" alt="shape" />
+              <img src="public/assets/img/process-pattern-6.png" alt="shape" />
             </div>
           </div>
         </div>

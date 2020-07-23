@@ -13,7 +13,7 @@
               <i class="icofont-touch"></i>
               <h3>Choose Services</h3>
               <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p>
-              <img src="assets/img/process-pattern-2.png" alt="arrow" />
+              <img src="public/assets/img/process-pattern-2.png" alt="arrow" />
             </div>
           </div>
 
@@ -22,7 +22,7 @@
               <i class="icofont-world"></i>
               <h3>Booking Online</h3>
               <p>Lorem Ipsum is simply dummied text of the printing and typesetting industry.</p>
-              <img src="assets/img/process-pattern-2.png" alt="arrow" />
+              <img src="public/assets/img/process-pattern-2.png" alt="arrow" />
             </div>
           </div>
 
@@ -36,12 +36,12 @@
         </div>
 
         <div class="process-shapes">
-          <img src="assets/img/process-pattern-3.png" alt="shape" />
-          <img src="assets/img/process-pattern-4.png" alt="shape" />
-          <img src="assets/img/process-pattern-5.png" alt="shape" />
-          <img src="assets/img/process-pattern-6.png" alt="shape" />
-          <img src="assets/img/process-pattern-7.png" alt="shape" />
-          <img src="assets/img/process-pattern-6.png" alt="shape" />
+          <img src="public/assets/img/process-pattern-3.png" alt="shape" />
+          <img src="public/assets/img/process-pattern-4.png" alt="shape" />
+          <img src="public/assets/img/process-pattern-5.png" alt="shape" />
+          <img src="public/assets/img/process-pattern-6.png" alt="shape" />
+          <img src="public/assets/img/process-pattern-7.png" alt="shape" />
+          <img src="public/assets/img/process-pattern-6.png" alt="shape" />
         </div>
       </div>
     </div>
