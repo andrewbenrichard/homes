@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Meal extends Model
+class Service extends Model
 {
     protected $guarded = [];
     public $timestamps = false;

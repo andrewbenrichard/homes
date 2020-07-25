@@ -1,4 +1,4 @@
-<template>
+router-link<template>
    <section class="about-style-two pt-100">
       <div class="container">
         <div class="row align-items-center">
@@ -90,8 +90,8 @@ That’s exactly why we exist. </p>
               </ul>
 
               <div class="theme-button">
-                <a href="pricing.html" class="default-btn active-btn">Book Online</a>
-                <a href="about.html" class="default-btn">Learn More</a>
+                <a href="https://myempirehomes.com/page/about-us" target="_blank" class="default-btn active-btn">Book Online</a>
+                <router-link to="/about" class="default-btn">Learn More</router-link>
               </div>
             </div>
           </div>

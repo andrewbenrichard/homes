@@ -3,7 +3,7 @@
     <topHeader v-bind:pageTitle="pageName" />
     <breadCrum v-bind:pageTitle="pageName" />
 
-    <ServicesGrid />
+    <ServicesGrid v-bind:services="services"/>
     <ContactSection />
 
     <Bottomfooter />
@@ -38,12 +38,12 @@ export default {
   methods: {
     loadServices() {
       axios
-        .get("/api/sc_front/articles_mini")
+        .get("/api/sc_front/services")
         .then(({ data }) => (this.services = data));
     }
   },
   created() {
-    this.$route.params;
+    this.loadServices();
   }
 };
 </script>

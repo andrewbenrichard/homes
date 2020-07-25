@@ -84,11 +84,11 @@
                         Services
                       </router-link>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                       <router-link to="/pricing" class="nav-link ">
                         Pricing
                       </router-link>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                       <router-link to="/contact" class="nav-link">Contact</router-link>
                     </li>

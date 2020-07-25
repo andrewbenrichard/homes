@@ -16,8 +16,8 @@
                   <p>Covering multiple services 24/7
                      in Your Area.</p>
                   <div class="theme-button">
-                    <a href="testimonial.html" class="default-btn active-btn">Request a Callback</a>
-                    <a href="service.html" class="default-btn">Our Services</a>
+                    <router-link to="/booking" class="default-btn active-btn">Request a Callback</router-link>
+                    <router-link to="/services" class="default-btn">Our Services</router-link>
                   </div>
                 </div>
               </div>
@@ -47,7 +47,7 @@
     <!-- About Section End -->
 
     <!-- Service Section Start -->
-    <ServicesOwl />
+    <ServicesOwl v-bind:services="services"/>
     
     <!-- Service Section End -->
 
@@ -97,35 +97,18 @@ export default {
   },
   data() {
     return {
-      testimonials: {},
-      articles: {}
+      services: {}
     };
   },
-  methods: {
-    loadMeals() {
-      axios.get("/api/sc_front/meals").then(({ data }) => (this.meals = data));
-    },
-    loadChef() {
-      axios.get("/api/sc_front/chef").then(({ data }) => (this.chef = data));
-    },
-    loadTestimonials() {
+   methods: {
+    loadServices() {
       axios
-        .get("/api/sc_front/testimonials")
-        .then(({ data }) => (this.testimonials = data));
-    },
-    loadTopArticle() {
-      axios
-        .get("/api/sc_front/top_article")
-        .then(({ data }) => (this.top_article = data));
-    },
-    loadArticles() {
-      axios
-        .get("/api/sc_front/articles_mini")
-        .then(({ data }) => (this.articles = data));
+        .get("/api/sc_front/services")
+        .then(({ data }) => (this.services = data));
     }
   },
   created() {
-    this.$route.params;
+    this.loadServices();
   }
 };
 </script>

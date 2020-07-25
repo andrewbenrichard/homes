@@ -18,25 +18,9 @@
           <div class="footer-widget pl-40">
             <h3>Services</h3>
             <ul>
-              <li>
+              <li v-for="(service, id) in services" :key="id">
                 <i class="icofont-simple-right"></i>
-                <a href="service-details.html">Plumbing</a>
-              </li>
-              <li>
-                <i class="icofont-simple-right"></i>
-                <a href="service-details.html">Roofing</a>
-              </li>
-              <li>
-                <i class="icofont-simple-right"></i>
-                <a href="service-details.html">Electrician</a>
-              </li>
-              <li>
-                <i class="icofont-simple-right"></i>
-                <a href="service-details.html">Carpenter</a>
-              </li>
-              <li>
-                <i class="icofont-simple-right"></i>
-                <a href="service-details.html">Office Cleaning</a>
+                <router-link to="/booking">{{service.service_name}}</router-link>
               </li>
             </ul>
           </div>
@@ -48,19 +32,16 @@
             <ul>
               <li>
                 <i class="icofont-simple-right"></i>
-                <a href="index.html">About us</a>
+                <a target="_blank" href="https://myempirehomes.com/page/about-us">About us</a>
               </li>
               <li>
                 <i class="icofont-simple-right"></i>
-                <a href="about.html">Guarantee</a>
+                <router-link to="/guarantee">Guarantee</router-link>
               </li>
+             
               <li>
                 <i class="icofont-simple-right"></i>
-                <a href="blog.html">Recruitment</a>
-              </li>
-              <li>
-                <i class="icofont-simple-right"></i>
-                <a href="team.html">Contact us</a>
+                <router-link to="/contact">Contact us</router-link>
               </li>
               
             </ul>
@@ -88,29 +69,24 @@
         </div>
       </div>
     </div>
-    <div class="bottom-footer">
+     <div class="bottom-footer">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div class="footer-social">
               <ul>
                 <li>
-                  <a href="#">
+                  <a target="_blank" href="https://web.facebook.com/myempirehome">
                     <i class="icofont-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a  target="_blank" href="https://twitter.com/myempirehome">
                     <i class="icofont-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i class="icofont-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a target="_blank" href="https://www.instagram.com/myempirehome/">
                     <i class="icofont-instagram"></i>
                   </a>
                 </li>
@@ -137,19 +113,18 @@ export default {
   },
   data() {
     return {
-      articles: {}
+      services: {}
     };
   },
   methods: {
-    // loadArticle() {
-    //     axios
-    //         .get("/api/sc_admin/articles")
-    //         .then(({ data }) => (this.articles = data));
-    // }
+     loadServices() {
+      axios
+        .get("/api/sc_front/services")
+        .then(({ data }) => (this.services = data));
+    },
   },
   created() {
-    // this.loadArticle();
-    // this.$route.params;
+    this.loadServices();
   }
 };
 </script>
