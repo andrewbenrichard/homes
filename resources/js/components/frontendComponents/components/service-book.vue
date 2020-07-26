@@ -6,7 +6,7 @@
                             <div :id="service.id" class="booking-checked hideCheck">
                                 <i class="ti-check"></i>
                             </div>
-                            <img :src="'/assets/icons/svg/'+service.service_img"/>
+                            <img :src="'/public/assets/icons/svg/'+service.service_img"/>
                             <h3>{{service.service_name}}</h3>
                         </div>
                     </div>

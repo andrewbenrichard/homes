@@ -41,7 +41,7 @@
                   <td class="product-item">
                     <div class="p-thumb">
                       <a href="#">
-                        <img src="/assets/front/images/popular-food/01.jpg" alt="product" />
+                        <img src="/public/assets/front/images/popular-food/01.jpg" alt="product" />
                       </a>
                     </div>
                     <div class="p-content">
@@ -59,7 +59,7 @@
                   <td>$750</td>
                   <td>
                     <a href="#">
-                      <img src="/assets/front/images/shop/del.png" alt="product" />
+                      <img src="/public/assets/front/images/shop/del.png" alt="product" />
                     </a>
                   </td>
                 </tr>
@@ -67,7 +67,7 @@
                   <td class="product-item">
                     <div class="p-thumb">
                       <a href="#">
-                        <img src="/assets/front/images/popular-food/02.jpg" alt="product" />
+                        <img src="/public/assets/front/images/popular-food/02.jpg" alt="product" />
                       </a>
                     </div>
                     <div class="p-content">
@@ -85,7 +85,7 @@
                   <td>$500</td>
                   <td>
                     <a href="#">
-                      <img src="/assets/front/images/shop/del.png" alt="product" />
+                      <img src="/public/assets/front/images/shop/del.png" alt="product" />
                     </a>
                   </td>
                 </tr>
@@ -93,7 +93,7 @@
                   <td class="product-item">
                     <div class="p-thumb">
                       <a href="#">
-                        <img src="/assets/front/images/popular-food/03.jpg" alt="product" />
+                        <img src="/public/assets/front/images/popular-food/03.jpg" alt="product" />
                       </a>
                     </div>
                     <div class="p-content">
@@ -111,7 +111,7 @@
                   <td>$100</td>
                   <td>
                     <a href="#">
-                      <img src="/assets/front/images/shop/del.png" alt="product" />
+                      <img src="/public/assets/front/images/shop/del.png" alt="product" />
                     </a>
                   </td>
                 </tr>
@@ -119,7 +119,7 @@
                   <td class="product-item">
                     <div class="p-thumb">
                       <a href="#">
-                        <img src="/assets/front/images/popular-food/04.jpg" alt="product" />
+                        <img src="/public/assets/front/images/popular-food/04.jpg" alt="product" />
                       </a>
                     </div>
                     <div class="p-content">
@@ -137,7 +137,7 @@
                   <td>$200</td>
                   <td>
                     <a href="#">
-                      <img src="/assets/front/images/shop/del.png" alt="product" />
+                      <img src="/public/assets/front/images/shop/del.png" alt="product" />
                     </a>
                   </td>
                 </tr>
@@ -145,7 +145,7 @@
                   <td class="product-item">
                     <div class="p-thumb">
                       <a href="#">
-                        <img src="/assets/front/images/popular-food/05.jpg" alt="product" />
+                        <img src="/public/assets/front/images/popular-food/05.jpg" alt="product" />
                       </a>
                     </div>
                     <div class="p-content">
@@ -163,7 +163,7 @@
                   <td>$400</td>
                   <td>
                     <a href="#">
-                      <img src="/assets/front/images/shop/del.png" alt="product" />
+                      <img src="/public/assets/front/images/shop/del.png" alt="product" />
                     </a>
                   </td>
                 </tr>
