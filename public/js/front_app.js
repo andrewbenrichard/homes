@@ -3043,10 +3043,6 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
@@ -53836,7 +53832,7 @@ var staticRenderFns = [
                 _c("li", [
                   _c("i", { staticClass: "icofont-clock-time" }),
                   _vm._v(
-                    "\n                Mon - Sun : 08:00AM - 07:00PM\n              "
+                    "\n                Mon - Sun : 08:00AM - 05:00PM\n              "
                   )
                 ]),
                 _vm._v(" "),
@@ -53850,8 +53846,8 @@ var staticRenderFns = [
                 _c("li", [
                   _c("i", { staticClass: "icofont-phone" }),
                   _vm._v(" "),
-                  _c("a", { attrs: { href: "tel:+2348153372133" } }, [
-                    _vm._v("+234 8153 372 133")
+                  _c("a", { attrs: { href: "tel:+2347044888413" } }, [
+                    _vm._v("+234-7044-888-413")
                   ])
                 ])
               ])
@@ -53862,27 +53858,31 @@ var staticRenderFns = [
             _c("div", { staticClass: "header-social text-right" }, [
               _c("ul", [
                 _c("li", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("i", { staticClass: "icofont-facebook" })
-                  ])
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "https://web.facebook.com/myempirehome" }
+                    },
+                    [_c("i", { staticClass: "icofont-facebook" })]
+                  )
                 ]),
                 _vm._v(" "),
                 _c("li", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("i", { staticClass: "icofont-twitter" })
-                  ])
+                  _c(
+                    "a",
+                    { attrs: { href: "https://twitter.com/myempirehome" } },
+                    [_c("i", { staticClass: "icofont-twitter" })]
+                  )
                 ]),
                 _vm._v(" "),
                 _c("li", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("i", { staticClass: "icofont-linkedin" })
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", [
-                  _c("a", { attrs: { href: "#" } }, [
-                    _c("i", { staticClass: "icofont-instagram" })
-                  ])
+                  _c(
+                    "a",
+                    {
+                      attrs: { href: "https://www.instagram.com/myempirehome/" }
+                    },
+                    [_c("i", { staticClass: "icofont-instagram" })]
+                  )
                 ])
               ])
             ])
@@ -54555,7 +54555,8 @@ var staticRenderFns = [
                       _c("a", { attrs: { href: "#" } }, [
                         _c("img", {
                           attrs: {
-                            src: "/assets/front/images/popular-food/01.jpg",
+                            src:
+                              "/public/assets/front/images/popular-food/01.jpg",
                             alt: "product"
                           }
                         })
@@ -54592,7 +54593,7 @@ var staticRenderFns = [
                     _c("a", { attrs: { href: "#" } }, [
                       _c("img", {
                         attrs: {
-                          src: "/assets/front/images/shop/del.png",
+                          src: "/public/assets/front/images/shop/del.png",
                           alt: "product"
                         }
                       })
@@ -54606,7 +54607,8 @@ var staticRenderFns = [
                       _c("a", { attrs: { href: "#" } }, [
                         _c("img", {
                           attrs: {
-                            src: "/assets/front/images/popular-food/02.jpg",
+                            src:
+                              "/public/assets/front/images/popular-food/02.jpg",
                             alt: "product"
                           }
                         })
@@ -54643,7 +54645,7 @@ var staticRenderFns = [
                     _c("a", { attrs: { href: "#" } }, [
                       _c("img", {
                         attrs: {
-                          src: "/assets/front/images/shop/del.png",
+                          src: "/public/assets/front/images/shop/del.png",
                           alt: "product"
                         }
                       })
@@ -54657,7 +54659,8 @@ var staticRenderFns = [
                       _c("a", { attrs: { href: "#" } }, [
                         _c("img", {
                           attrs: {
-                            src: "/assets/front/images/popular-food/03.jpg",
+                            src:
+                              "/public/assets/front/images/popular-food/03.jpg",
                             alt: "product"
                           }
                         })
@@ -54694,7 +54697,7 @@ var staticRenderFns = [
                     _c("a", { attrs: { href: "#" } }, [
                       _c("img", {
                         attrs: {
-                          src: "/assets/front/images/shop/del.png",
+                          src: "/public/assets/front/images/shop/del.png",
                           alt: "product"
                         }
                       })
@@ -54708,7 +54711,8 @@ var staticRenderFns = [
                       _c("a", { attrs: { href: "#" } }, [
                         _c("img", {
                           attrs: {
-                            src: "/assets/front/images/popular-food/04.jpg",
+                            src:
+                              "/public/assets/front/images/popular-food/04.jpg",
                             alt: "product"
                           }
                         })
@@ -54745,7 +54749,7 @@ var staticRenderFns = [
                     _c("a", { attrs: { href: "#" } }, [
                       _c("img", {
                         attrs: {
-                          src: "/assets/front/images/shop/del.png",
+                          src: "/public/assets/front/images/shop/del.png",
                           alt: "product"
                         }
                       })
@@ -54759,7 +54763,8 @@ var staticRenderFns = [
                       _c("a", { attrs: { href: "#" } }, [
                         _c("img", {
                           attrs: {
-                            src: "/assets/front/images/popular-food/05.jpg",
+                            src:
+                              "/public/assets/front/images/popular-food/05.jpg",
                             alt: "product"
                           }
                         })
@@ -54796,7 +54801,7 @@ var staticRenderFns = [
                     _c("a", { attrs: { href: "#" } }, [
                       _c("img", {
                         attrs: {
-                          src: "/assets/front/images/shop/del.png",
+                          src: "/public/assets/front/images/shop/del.png",
                           alt: "product"
                         }
                       })

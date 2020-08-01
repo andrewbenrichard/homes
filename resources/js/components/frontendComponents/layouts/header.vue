@@ -10,7 +10,7 @@
               <ul>
                 <li>
                   <i class="icofont-clock-time"></i>
-                  Mon - Sun : 08:00AM - 07:00PM
+                  Mon - Sun : 08:00AM - 05:00PM
                 </li>
                 <li>
                   <i class="icofont-location-pin"></i>
@@ -18,7 +18,7 @@
                 </li>
                 <li>
                   <i class="icofont-phone"></i>
-                  <a href="tel:+2348153372133">+234 8153 372 133</a>
+                  <a href="tel:+2347044888413">+234-7044-888-413</a>
                 </li>
               </ul>
             </div>
@@ -27,22 +27,18 @@
             <div class="header-social text-right">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="https://web.facebook.com/myempirehome">
                     <i class="icofont-facebook"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://twitter.com/myempirehome">
                     <i class="icofont-twitter"></i>
                   </a>
                 </li>
+                
                 <li>
-                  <a href="#">
-                    <i class="icofont-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/myempirehome/">
                     <i class="icofont-instagram"></i>
                   </a>
                 </li>
