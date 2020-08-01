@@ -53938,7 +53938,9 @@ var render = function() {
       _vm._v(" "),
       _vm._m(0),
       _vm._v(" "),
-      _vm._m(1)
+      _vm._m(1),
+      _vm._v(" "),
+      _c("Bottomfooter")
     ],
     1
   )
@@ -53973,11 +53975,9 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "theme-button text-center" }, [
-          _c(
-            "a",
-            { staticClass: "default-btn", attrs: { href: "index.html" } },
-            [_vm._v("go to home page")]
-          )
+          _c("a", { staticClass: "default-btn", attrs: { href: "/" } }, [
+            _vm._v("go to home page")
+          ])
         ])
       ])
     ])

@@ -26,12 +26,12 @@
                 </div>
 
                 <div class="theme-button text-center">
-                    <a href="index.html" class="default-btn">go to home page</a>
+                    <a href="/" class="default-btn">go to home page</a>
                 </div>
             </div>
         </div>
         <!-- 404 Section End -->
-
+<Bottomfooter/>
   </div>
 </template>
 
