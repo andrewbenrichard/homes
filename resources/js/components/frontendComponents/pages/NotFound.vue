@@ -1,36 +1,46 @@
 <template>
   <div>
-    <topHeader />
+    <topHeader v-bind:pageTitle="pageTitle"/>
+        <breadCrum v-bind:pageTitle="pageTitle" />
 
-    <!-- Start Footer Area -->
-    <!-- Start Error Area -->
-    <section class="error-area">
-      <div class="d-table">
-        <div class="d-table-cell">
-          <div class="container">
-            <div class="error-content">
-              <img src="assets/img/404.png" alt="error" />
-
-              <h3>Page Not Found</h3>
-              <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
-
-              <router-link index="0" class="default-btn" to="/">
-                Go to Home
-                <span></span>
-              </router-link>
-            </div>
-          </div>
+    
+  <!-- 404 Title Section Start -->
+        <div class="error-title">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <h2><span>Oops!</span> Page not found</h2>
+                </div>
+            </div> 
         </div>
-      </div>
-    </section>
-    <!-- End Error Area -->
+        <!-- 404 Title Section End -->
+
+        <!-- 404 Section Start -->
+        <div class="error-section pt-100 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="error-img">
+                            <img src="assets/img/404.png" alt="error image">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="theme-button text-center">
+                    <a href="index.html" class="default-btn">go to home page</a>
+                </div>
+            </div>
+        </div>
+        <!-- 404 Section End -->
+
   </div>
 </template>
 
    
 <script>
 import topHeader from "../layouts/header.vue";
-import footer from "../layouts/footer.vue";
+import Bottomfooter from "../layouts/footer.vue";
+import breadCrum from "../components/breadcrum.vue";
+
 
 export default {
   mounted() {
@@ -38,7 +48,13 @@ export default {
   },
   components: {
     topHeader,
-    footer
-  }
+    Bottomfooter,
+    breadCrum
+  }, 
+  data() {
+    return {
+       pageTitle: "Page not found",
+    }
+  },
 };
 </script>

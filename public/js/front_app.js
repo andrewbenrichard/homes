@@ -3086,6 +3086,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layouts_header_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../layouts/header.vue */ "./resources/js/components/frontendComponents/layouts/header.vue");
 /* harmony import */ var _layouts_footer_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/footer.vue */ "./resources/js/components/frontendComponents/layouts/footer.vue");
+/* harmony import */ var _components_breadcrum_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/breadcrum.vue */ "./resources/js/components/frontendComponents/components/breadcrum.vue");
 //
 //
 //
@@ -3116,6 +3117,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -3124,7 +3134,13 @@ __webpack_require__.r(__webpack_exports__);
   },
   components: {
     topHeader: _layouts_header_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
-    footer: _layouts_footer_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+    Bottomfooter: _layouts_footer_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
+    breadCrum: _components_breadcrum_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
+  },
+  data: function data() {
+    return {
+      pageTitle: "Page not found"
+    };
   }
 });
 
@@ -53916,51 +53932,57 @@ var render = function() {
   return _c(
     "div",
     [
-      _c("topHeader"),
+      _c("topHeader", { attrs: { pageTitle: _vm.pageTitle } }),
       _vm._v(" "),
-      _c("section", { staticClass: "error-area" }, [
-        _c("div", { staticClass: "d-table" }, [
-          _c("div", { staticClass: "d-table-cell" }, [
-            _c("div", { staticClass: "container" }, [
-              _c(
-                "div",
-                { staticClass: "error-content" },
-                [
-                  _c("img", {
-                    attrs: { src: "assets/img/404.png", alt: "error" }
-                  }),
-                  _vm._v(" "),
-                  _c("h3", [_vm._v("Page Not Found")]),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "The page you are looking for might have been removed had its name changed or is temporarily unavailable."
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "router-link",
-                    {
-                      staticClass: "default-btn",
-                      attrs: { index: "0", to: "/" }
-                    },
-                    [
-                      _vm._v("\n              Go to Home\n              "),
-                      _c("span")
-                    ]
-                  )
-                ],
-                1
-              )
-            ])
-          ])
-        ])
-      ])
+      _c("breadCrum", { attrs: { pageTitle: _vm.pageTitle } }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1)
     ],
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "error-title" }, [
+      _c("div", { staticClass: "d-table" }, [
+        _c("div", { staticClass: "d-table-cell" }, [
+          _c("h2", [_c("span", [_vm._v("Oops!")]), _vm._v(" Page not found")])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "error-section pt-100 pb-70" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-6 offset-md-3" }, [
+            _c("div", { staticClass: "error-img" }, [
+              _c("img", {
+                attrs: { src: "assets/img/404.png", alt: "error image" }
+              })
+            ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "theme-button text-center" }, [
+          _c(
+            "a",
+            { staticClass: "default-btn", attrs: { href: "index.html" } },
+            [_vm._v("go to home page")]
+          )
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

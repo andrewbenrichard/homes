@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Vue Tasker">
-    <meta name="keywords" content="Vue Tasker">
-    <meta name="author" content="Andrew Ben Richard">
-    <link rel="icon" href="{{ asset('/assets/images/favicon/1.png') }}" type="image/x-icon">
-    <link rel="shortcut icon" href="{{ asset('/assets/images/favicon/1.png') }}" type="image/x-icon">
+    <meta name="description" content="My Empire Homes Handymen">
+    <meta name="keywords" content="My Empire Homes Handymen">
+    <link rel="icon" type="image/png" href="/public/assets/img/favicon.png">  
+
+    <meta name="author" content="My Empire Homes">
     @if(strpos($_SERVER['REQUEST_URI'], 'dashboard') !== false)
 
 
