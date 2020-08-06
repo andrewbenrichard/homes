@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use App\Service;
 use App\Booking;
 use Illuminate\Support\Carbon;
+use GuzzleHttp\Client;
 
 
 class ApiController extends Controller
@@ -42,6 +43,14 @@ class ApiController extends Controller
     public function BookingStore(Request $request)
     {
 
+        $message_sms = 'New booking '.$request['full_name'].' needs '.$request['service'].' booking date '.$request['booking_date'].' number '.$request['number'];
+        $client = new Client();
+                $res = $client->request('POST', 'https://www.bulksmsnigeria.com/api/v1/sms/create?api_token=nwYZdg8eE2EL5LMloQxTimOuFxa88d2EzmDFuAixOjhTS5CQ6x5GoBB4qCJp&from=Empire Homes&to=+2347044888413&body='.$message_sms.'&dnd=2', [
+                'form_params' => [
+                'client_id' => 'test_id',
+                'secret' => 'test_secret',
+            ]
+        ]);
       
         # code...
         $booking = Booking::create([

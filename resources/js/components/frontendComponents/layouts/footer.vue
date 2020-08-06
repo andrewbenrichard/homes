@@ -58,8 +58,7 @@
               </li>
               <li>
                 <i class="icofont-phone"></i>
-                <a href="tel:+2348153372133">+234 8153 3721 33</a>
-              </li>
+ <a href="tel:+2347044888413">+234-7044-888-413</a>              </li>
               <li>
                 <i class="icofont-ui-message"></i>
                 <a href="mailto:bookings@myempirehomes.com">bookings@myempirehomes.com</a>

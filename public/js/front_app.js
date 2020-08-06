@@ -2889,7 +2889,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("footer mounted.");
@@ -53594,15 +53593,15 @@ var staticRenderFns = [
           _c("li", [
             _c("i", { staticClass: "icofont-location-pin" }),
             _vm._v(
-              "\n             70 Airport Road, Benin city, Nigeria\n            "
+              "\n              70 Airport Road, Benin city, Nigeria\n             "
             )
           ]),
           _vm._v(" "),
           _c("li", [
             _c("i", { staticClass: "icofont-phone" }),
             _vm._v(" "),
-            _c("a", { attrs: { href: "tel:+2348153372133" } }, [
-              _vm._v("+234 8153 3721 33")
+            _c("a", { attrs: { href: "tel:+2347044888413" } }, [
+              _vm._v("+234-7044-888-413")
             ])
           ]),
           _vm._v(" "),
@@ -53673,7 +53672,7 @@ var staticRenderFns = [
             _c("div", { staticClass: "copyright-text text-right" }, [
               _c("p", [
                 _vm._v(
-                  "\n              ©2020 My Empire Homes. All Rights Reserved \n            "
+                  "\n               ©2020 My Empire Homes. All Rights Reserved \n             "
                 )
               ])
             ])
